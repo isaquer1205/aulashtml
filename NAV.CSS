@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?família=E-mail:wght@200&família=Kdam+Thmor+Pro&família=Areia movediça:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Quicksand', sans-serif;        box-sizing: content-box;
+    border-radius: 12px;
+    justify-content: space-between;
+}
+
+    
+    
+    .drop-menu ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .drop-menu ul {
+        background-color: rgb(23, 23, 23);
+    }
+    
+    .drop-menu ul li {
+        display: inline;
+        position: relative;
+
+    }
+    
+    .drop-menu ul li a {
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+        transition: background .7s;
+    }
+    
+    .drop-menu ul li a:hover {
+        background-color: white;
+        color: black;
+    }
+    
+    .drop-menu ul ul {
+        display: none;
+        left: 0;
+        position: absolute;
+    }
+    
+    .drop-menu ul li:hover ul {
+        display: block;
+    }
+    
+    .drop-menu ul ul {
+        width: 150px
+    }
+    
+    .drop-menu ul ul li a {
+        display: block;
+    }
+    
+    
+    
+    
+    
