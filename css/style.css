@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    color: #191970; 
+}
+
+body {
+    background: linear-gradient(to bottom, #e0e0e0, #1e90ff);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 3px solid #1e90ff; 
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+p {
+    font-size: 16px;
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    line-height: 1.5;
+}
